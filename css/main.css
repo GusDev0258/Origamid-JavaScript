@@ -1,0 +1,48 @@
+.header{
+  display: flex;
+  background-color: aliceblue;
+  padding: 16px;
+}
+.header-container{
+  max-width: 1200px;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  margin: 0 auto;
+}
+.menu-list{
+  width: 1200px;
+  display: flex;
+  gap: 24px;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.menu-list:last-child{
+  margin-right: 32px;
+}
+.btn{
+  background-color: cornflowerblue;
+  padding: 8px 16px;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 24px;
+  margin-left: 32px;
+}
+.btn:hover{
+  background-color: darkslateblue;
+}
+.titulo{
+  margin-left: 32px;
+}
+.mimi{
+  margin-top: 32px;
+  margin: 0 auto;
+  display: none;
+}
+.aparece{
+  display: block;
+}
