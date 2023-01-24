@@ -1,0 +1,27 @@
+body,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+blockquote,
+cite,
+dt,
+dd,
+dl {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+img {
+  display: block;
+  max-width: 100%;
+  border-radius: 5px;
+}
