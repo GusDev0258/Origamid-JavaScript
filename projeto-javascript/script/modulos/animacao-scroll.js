@@ -7,7 +7,7 @@ export default function animationOnScroll() {
       const isSectionVisible = getSectionTop - getSixtyScreenHeight < 0;
       if (isSectionVisible) {
         section.classList.add("ativo");
-      } else {
+      } else if (section.classList.contains("ativo")) {
         section.classList.remove("ativo");
       }
     });

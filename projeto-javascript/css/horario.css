@@ -1,0 +1,10 @@
+[data-semana].aberto::after{
+  content: '- Aberto agora';
+  color: green;
+  margin-left: 4px;
+}
+[data-semana].fechado::after{
+  content: '- Fechado agora';
+  color: red;
+  margin-left: 4px;
+}

@@ -6,6 +6,8 @@ import initModal from "./modulos/modal.js";
 import initToolTip from "./modulos/tooltip.js";
 import initDropdownMenu from './modulos/dropdown.js';
 import initMenuMobile from './modulos/menu-hamburger.js';
+import initAnimarNumeros from './modulos/numeros.js';
+import initFuncionamento from './modulos/funcionamento.js';
 softScroll();
 animationOnScroll();
 initAccordion();
@@ -14,4 +16,5 @@ initModal();
 initToolTip();
 initDropdownMenu();
 initMenuMobile();
-
+initAnimarNumeros();
+initFuncionamento();
