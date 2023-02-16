@@ -19,11 +19,11 @@
 // console.log(menu);
 // menu.forEach((item) => {
 //   item.classList.add('ativo');
-  // if(item.hasAttribute('alt')){
-  //   console.log('bunda')
-  // }else{
-  //   console.log('pinto')
-  // }
+// if(item.hasAttribute('alt')){
+//   console.log('bunda')
+// }else{
+//   console.log('pinto')
+// }
 //   let itemHref = item.getAttribute('href');
 //   if(!itemHref.includes('#')){
 //     let item2 = item.getAttribute('href');
@@ -58,23 +58,21 @@
 //   return this.nome + this.sobrenome
 // }
 
-const todosP = document.querySelectorAll('p');
+const todosP = document.querySelectorAll("p");
 const pCaracter = Array.from(todosP);
 const teste = pCaracter.reduce((acumulador, item) => {
   return acumulador + item.innerText.length;
-},0);
+}, 0);
 console.log(teste);
 console.log(pCaracter);
 console.log(todosP);
 
-function criaElemento(tag,classe,conteudo){
+function criaElemento(tag, classe, conteudo) {
   const element = document.createElement(`${tag}`);
   classe ? element.classList.add(`${classe}`) : null;
-  conteudo ? element.innerText = conteudo : null;
+  conteudo ? (element.innerText = conteudo) : null;
   return element;
 }
 
-const novaFunc = 
-console.log(novaFunc('oi'));
-
-
+const criarTitulo = criaElemento.bind(null, "h1", "titulo");
+console.log(criarTitulo("curso de TS"));
