@@ -10,7 +10,7 @@ body {
   grid-column: 1 / -1;
   background: #fb5;
   display: flex;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   align-items: center;
   flex-wrap: wrap;
   margin-top: 20px;
