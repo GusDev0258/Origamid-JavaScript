@@ -224,6 +224,10 @@ body {
 .js [data-tab="content"] section.ativo.show-down {
   animation: show-down 0.8s forwards;
 }
+.btc-preco{
+  background: greenyellow;
+  padding: 8px;
+}
 
 @media (max-width: 700px) {
   .grid-container {
