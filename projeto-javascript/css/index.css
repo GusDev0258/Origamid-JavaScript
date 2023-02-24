@@ -21,7 +21,6 @@ body {
   padding: 1rem;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 20px;
 }
 .menu li a {
   display: block;
