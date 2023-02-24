@@ -21,6 +21,7 @@ body {
   padding: 1rem;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 20px;
 }
 .menu li a {
   display: block;
@@ -224,7 +225,7 @@ body {
 .js [data-tab="content"] section.ativo.show-down {
   animation: show-down 0.8s forwards;
 }
-.btc-preco{
+.btc-preco {
   background: greenyellow;
   padding: 8px;
 }
