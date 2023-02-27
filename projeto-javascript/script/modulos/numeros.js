@@ -26,7 +26,7 @@ export default class AnimarNumeros {
 
   handleMutation(mutation) {
     if (mutation[0].target.classList.contains(this.observerClass)) {
-      observer.disconnect();
+      this.observer.disconnect();
       this.animaNumeros();
     }
   }
