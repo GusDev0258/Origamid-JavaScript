@@ -26,7 +26,7 @@ export default class softScroll {
   init() {
     if (this.linksInternos.legth) {
       this.addLinkEvent();
-      return this;
     }
+    return this;
   }
 }

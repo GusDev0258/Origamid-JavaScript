@@ -27,7 +27,7 @@ export default class Modal {
   init() {
     if (this.botaoAbrir && this.botaoFechar && this.containerModal) {
       this.addModalEvent();
-      return this;
     }
+    return this;
   }
 }
