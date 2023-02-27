@@ -10,6 +10,11 @@
     "sourceType": "module"
   },
   "rules": {
-    "quotes": [2, "double", { "avoidEspace": true }]
+    "quotes": [2, "double"],
+    "import/extesions": [
+      {
+        "js": "always"
+      }
+    ]
   }
 }

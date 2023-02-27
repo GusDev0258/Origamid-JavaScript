@@ -1,6 +1,6 @@
 export default class Accordion {
   constructor(lista) {
-    this.accordionList = document.querySelectorAll(list);
+    this.accordionList = document.querySelectorAll(lista);
   }
   activeAccordion(item) {
     item.classList.toggle("ativo");
