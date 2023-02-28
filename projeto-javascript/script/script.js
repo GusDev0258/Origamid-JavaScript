@@ -34,7 +34,7 @@ fetchAnimais(
   ".numeros-grid"
 );
 
-const animaScroll = new animationOnScroll(".js-scroll", );
+const animaScroll = new animationOnScroll(".js-scroll");
 animaScroll.init();
 
 initDropdownMenu();
